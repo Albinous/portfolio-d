@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  background-color: #000;
+  line-height: 2;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-size: 18px;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  border: none;
+  display: inline-block;
+  width: 220px;
+  line-height: 2;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s ease-in;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 90px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-lang {
+  display: flex;
+  gap: 31px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu__item-link:hover {
+  color: #BDAE82;
+}
+
+.lang-item {
+  font-weight: 700;
+}
+
+.lang-item:first-child {
+  color: #BDAE82;
+  margin-right: 9px;
+  cursor: pointer;
+}
+
+.lang-item:last-child {
+  margin-left: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.lang-item:last-child:hover {
+  color: #BDAE82;
+}
+
+.hero {
+  position: relative;
+  background-image: url(assets/images/bg.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-wrapper {
+  padding: 250px 0 0 60px;
+}
+
+.hero-title {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.hero-text {
+  font-size: 20px;
+  margin-bottom: 25px;
+  max-width: 470px;
+}
+
+.hero-btn {
+  background: #BDAE82;
+  padding: 8px 0 7px;
+}
+
+.hero-btn:hover {
+  color: #fff;
+}
